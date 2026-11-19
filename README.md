@@ -13,7 +13,7 @@ user question
     │
     ▼
 ┌─────────────────┐     tool call (JSON)     ┌───────────────────┐
-│  local LLM      │ ───────────────────────► │  your Python code │
+│  local LLM      │ ───────────────────────► │  Python code      │
 │ (Ollama, 3B)    │                          │  get_weather()    │
 └─────────────────┘                          └─────────┬─────────┘
     ▲                                                  │
