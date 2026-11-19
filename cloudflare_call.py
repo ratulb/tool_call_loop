@@ -1,11 +1,9 @@
 import os
 import requests
 
-ACCOUNT_ID = "f12c539a5f4e218f91ccf4ffe13eb4df"
-API_TOKEN = "***REMOVED***"
 
-#ACCOUNT_ID = os.environ["CLOUDFLARE_ACCOUNT_ID"]
-#API_TOKEN = os.environ["CLOUDFLARE_AUTH_TOKEN"]
+ACCOUNT_ID = os.environ["CLOUDFLARE_ACCOUNT_ID"]
+API_TOKEN = os.environ["CLOUDFLARE_AUTH_TOKEN"]
 
 
 response = requests.post(
